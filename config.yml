@@ -1,0 +1,4 @@
+name: "mysite"
+author: "Damindu Dhananjitha"
+url: "https://damindu.me"
+post_format: "blog/:title.md"
