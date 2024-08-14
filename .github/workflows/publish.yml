@@ -20,7 +20,7 @@ jobs:
 
       - name: Build site
         run:
-          jorge serve
+          jorge build
       
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1
