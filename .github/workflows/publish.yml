@@ -14,8 +14,8 @@ jobs:
       # Run a build step here if your project requires
       - name: Setup jorge
         run:
-          wget -O jorge https://github.com/facundoolano/jorge/releases/latest/download/jorge-linux-amd64
-          chmod +x jorge
+          wget -O jorge https://github.com/facundoolano/jorge/releases/latest/download/jorge-linux-amd64 &&
+          chmod +x jorge &&
           sudo mv jorge /usr/local/bin
 
       - name: Build site
