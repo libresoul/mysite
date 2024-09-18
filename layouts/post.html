@@ -17,7 +17,12 @@ layout: base
     <br>
 
         {% if page.cover-img %}
-        <img class="cover-img" src="{{ page.cover-img | absolute_url }}">
+        <div >
+            <img class="cover-img" src="{{ page.cover-img[0] | absolute_url }}">
+            <div class="imagecaption">
+                {{ page.cover-img[1] | markdownify }}
+            </div>
+        </div>
         {% endif %}
     </header>
     {{ content }}

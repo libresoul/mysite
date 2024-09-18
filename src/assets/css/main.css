@@ -121,6 +121,14 @@ hr {
     border-top:1px solid lightgray;
 }
 
+.imagecaption {
+    text-align: center;
+    font-size: 12px;
+    font-family: monospace;
+    margin-top: 30px;
+    margin-bottom: -3rem;
+}
+
 /* tweaks for post content style */
 .layout-post img {
     max-width: 75%;
