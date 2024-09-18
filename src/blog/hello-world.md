@@ -4,7 +4,7 @@ date: 2024-09-12 14:48:56
 layout: post
 lang: en
 tags: [intro]
-cover-img: "../images/library_hello-world.webp"
+cover-img: ["../images/library_hello-world.webp", "Photo by [Valentino Mazzariello](https://unsplash.com/@vm32) on [Unsplash](https://unsplash.com/photos/brown-table-between-two-ladders-Ndm1hhIcwHc)"]
 ---
 
 ## Shouldn't a library be a quiet place?
