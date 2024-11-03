@@ -41,8 +41,8 @@
         {% endif %}
 
         {% if page.cover-img != "" %}
-        <meta property="og:image" content="{{ page.cover-img | absolute_url }}">
-        <meta name="twitter:image" content="{{ page.cover-img | absolute_url }}">
+        <meta property="og:image" content="{{ page.cover-img[0] | absolute_url }}">
+        <meta name="twitter:image" content="{{ page.cover-img[0] | absolute_url }}">
         {% endif %}
 
     </head>
