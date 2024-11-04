@@ -44,7 +44,7 @@ const ageRegex = /^[0-9]{1,2}$/;
 ```
 
 I Had the above lines to validate name, email and age that user inputs to the
-form. You can figure out right away what was the issue is comparing what's
+form. You can figure out right away what was the issue, comparing what's
 different in those two square brackets which is in the name pattern. Yes, it
 should have been ```^[A-Za-z]+(\s[A-Za-z]+)?$``` instead of what I have written
 in the last few minutes before the deadline. Means now it only accepts names
@@ -52,7 +52,7 @@ where the second name starts with a lowercase letter.
 
 ![form-result](/images/form_result-the-love-hate-relationship.webp) 
 
-Well now you know why. You may thing it's just me, wrong! XD\
+Well now you know why. You may think it's just me, wrong! XD\
 Russian Government, Cisco, Cloudflare, AWS and even Google were victims of fat
 fingering regex. [More on here](https://regexlicensing.org/incident/).
 
