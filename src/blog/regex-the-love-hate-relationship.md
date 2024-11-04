@@ -88,6 +88,9 @@ overmatching a set of strings nonetheless the pattern.
 ![Greedy matching demo](/images/greedy_matching_demo_regex-the-love-hate-relationship.webp
 ) 
 
+It can be mitigated easily by adding some metacharacters here and there but we
+keep forgetting to do so.
+
 Well there's my useless opinion about Regex, and I encourage each and
 everyone of you to learn regex but don't use them unless you have to. If you
 have to, make sure to test them 20 or more times before you casually push your
