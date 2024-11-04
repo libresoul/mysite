@@ -90,7 +90,7 @@ overmatching a set of strings nonetheless the pattern.
 
 Well there's my useless opinion about Regex, and I encourage each and
 everyone of you to learn regex but don't use them unless you have to. If you
-have to, make sure to test them 20 or more times before you casually push it to
-production on Friday. :3
+have to, make sure to test them 20 or more times before you casually push your
+precious code to production on Friday. :3
 
 > Now the [title](#) make sense right?
