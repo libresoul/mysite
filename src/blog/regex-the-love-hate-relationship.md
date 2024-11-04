@@ -5,6 +5,7 @@ layout: post
 lang: en
 tags: [tech, regex]
 cover-img: ["../images/pattern_regex-the-love-hate-relationship.webp", "Photo by [Jonny Fox](https://medium.com/@jonny.fox) on [Medium](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)"]
+excerpt: Regex can be quite complicated due to it's syntax and the way it operates. It can be error-prone and sometimes overmatches a set of strings. This article discusses the developers' love-hate relationship with Regex.
 ---
 
 Back again sitting on my butt pillow after doing a terrible [form
