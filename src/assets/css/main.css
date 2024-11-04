@@ -107,6 +107,10 @@ a.title {
     }
 }
 
+li {
+    list-style: none;
+}
+
 .footer, .footer a, .date, .tags, .tags a {
     color: silver;
 }
