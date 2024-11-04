@@ -10,17 +10,17 @@ cover-img: ["../images/pattern_regex-the-love-hate-relationship.webp", "Photo by
 Back again sitting on my butt pillow after doing a terrible [form
 validation](https://github.com/libresoul/form-validation) for one of my
 assignments. I am telling it is terrible not only because it's code smelling,
-it's because I wanted to show off that I know regex\
-(yes, it went bad).
+it's because I wanted to show off that I know regex.\
+(yes, it went bad)
 
 First of all Regular Expressions or commonly known as Regex *(reh·jeks)* is a
 sequence of characters which are used for search patterns. Regex is widely
-supported on modern programming languages like Python, JavaScript, Ruby and
+supported in modern programming languages like Python, JavaScript, Ruby and
 even SQL supports it OOTB. Doesn't sound bad right? Wait for it. When it comes
 to regex there are two groups. You either absolutely love regex or you want to
 pull your hair seeing regex in the codebase that your frenemies wrote. Why though?
 
-Regex can be quite complicated cause it uses shit ton of keywords and flags.
+Regex can be quite complicated cause it uses a shit ton of keywords and flags.
 Have a look at the following.
 
 ```
@@ -28,8 +28,8 @@ Have a look at the following.
 ```
 
 First time? :3\
-Well that was a ridiculously complex pattern though there can be some\
-occasions when you have to deal with long ass patterns.
+Well that was a ridiculously complex pattern though there can be some occasions
+where you have to deal with long ass patterns.
 
 Not only regex can be unbearably complex (if you suffer from skill issues),
 what if you have fat fingered one of the characters or even forgot to include
@@ -51,8 +51,8 @@ where the second name starts with a lowercase letter.
 
 ![form-result](/images/form_result-the-love-hate-relationship.webp) 
 
-Well now you know why. Well you may thing it's just me, wrong! XD
-Russian Government, Cisco, Cloudflare, AWS and even Google were victims of fat\
+Well now you know why. You may thing it's just me, wrong! XD\
+Russian Government, Cisco, Cloudflare, AWS and even Google were victims of fat
 fingering regex. [More on here](https://regexlicensing.org/incident/).
 
 ## How does Regex actually work
@@ -74,7 +74,7 @@ of special characters called *metacharacters*.
 
 While those being the basic regular expressions, *grouping, workarounds,\
 asserting* are considered as extended regular expressions. If you wanna learn
-Regex with zero amount of nonsense, try [regexlearn](https://regexlearn.com). 
+Regex with zero nonsense, try [regexlearn](https://regexlearn.com). 
 
 Apart from being complicated and error-prone, Regex have another\
 problematic feature or an issue in this case known as *Greedy matching*.
@@ -88,7 +88,7 @@ overmatching a set of strings nonetheless the pattern.
 ![Greedy matching demo](/images/greedy_matching_demo_regex-the-love-hate-relationship.webp
 ) 
 
-Well here there's my useless opinion about Regex, and I encourage each and
+Well there's my useless opinion about Regex, and I encourage each and
 everyone of you to learn regex but don't use them unless you have to. If you
 have to, make sure to test them 20 or more times before you casually push it to
 production on Friday. :3
