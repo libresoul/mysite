@@ -170,6 +170,7 @@ img.cover-img {
 }
 
 .layout-post .title {
+    margin-bottom: -0.1em;
     hyphens:none;
 }
 
