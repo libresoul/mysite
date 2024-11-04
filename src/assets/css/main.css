@@ -144,6 +144,18 @@ hr {
     margin-bottom: -3rem;
 }
 
+img {
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    border-color: currentColor;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    transition-delay: 0.1s;
+}
+
 /* tweaks for post content style */
 .layout-post img {
     max-width: 75%;
