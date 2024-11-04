@@ -8,7 +8,7 @@ cover-img: ["../images/pattern_regex-the-love-hate-relationship.webp", "Photo by
 excerpt: Regex can be quite complicated due to it's syntax and the way it operates. It can be error-prone and sometimes overmatches a set of strings. This article discusses the developers' love-hate relationship with Regex.
 ---
 
-Back again sitting on my butt pillow after doing a terrible [form
+Back again sitting on my chair after doing a terrible [form
 validation](https://github.com/libresoul/form-validation) for one of my
 assignments. I am telling it is terrible not only because it's code smelling,
 it's because I wanted to show off that I know regex.\
@@ -92,7 +92,7 @@ overmatching a set of strings nonetheless the pattern.
 It can be mitigated easily by adding some metacharacters here and there but we
 keep forgetting to do so.
 
-Well there's my useless opinion about Regex, and I encourage each and
+Well there's my opinion about Regex, and I encourage each and
 everyone of you to learn regex but don't use them unless you have to. If you
 have to, make sure to test them 20 or more times before you casually push your
 precious code to production on Friday. :3
