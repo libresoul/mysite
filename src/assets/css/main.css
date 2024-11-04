@@ -144,6 +144,14 @@ hr {
     margin-bottom: -3rem;
 }
 
+img + em {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-family: monospace;
+    font-size: 12px;
+}
+
 img {
     border-radius: 10px;
     border: 2px solid transparent;
