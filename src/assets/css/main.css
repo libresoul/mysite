@@ -1,11 +1,13 @@
 @font-face {
     font-family: titilium-web;
     src: url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf');
+    font-display: swap;
 }
 
 @font-face {
     font-family: fira-code;
     src: url('../fonts/Fira_Code/FiraCode-VariableFont_wght.ttf');
+    font-display:swap
 }
 
 html {
