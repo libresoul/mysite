@@ -1,5 +1,6 @@
 name: "Blogs By Damindu"
 author: "Damindu Dhananjitha"
 lang: "en"
+description: "FOSS, Tech and nerdy rants that go beyond your average blog. Keeping it real, a little biased and hopefully never dull"
 url: "https://damindu.me"
 post_format: "blog/:title.md"
