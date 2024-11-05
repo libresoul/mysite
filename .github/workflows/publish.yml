@@ -11,18 +11,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Set Jorge version
+        env:
+          JORGE_VERSION: 0.9.0
+        run: echo "JORGE_VERSION=$JORGE_VERSION" >> $GITHUB_OUTPUT
+
       - name: Cache Jorge binary
-        uses: actions/cache@v3
+        uses: actions/cache@v4
+        id: cache
         with:
           path: /usr/local/bin/jorge
-          key: ${{ runner.os }}-jorge-${{ hashFiles('**/jorge') }}-${{ env.JORGE_VERSION }}
+          key: ${{ runner.os }}-jorge-${{ env.JORGE_VERSION }}
           restore-keys: |
             ${{ runner.os }}-jorge-
 
       # Run a build step here if your project requires
       - name: Setup jorge
-        env:
-          JORGE_VERSION: 0.9.0
+        if: steps.cache.outputs.cache-hit != 'true'
         run:
           wget -O jorge https://github.com/facundoolano/jorge/releases/download/${{ env.JORGE_VERSION }}/jorge-linux-amd64 &&
           chmod +x jorge &&
@@ -33,7 +38,7 @@ jobs:
           jorge build
       
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -46,5 +51,3 @@ jobs:
           branch: ${{ github.ref_name }}
           # Optional: Change the working directory
           # workingDirectory: my-site
-          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
-          wranglerVersion: '3'
