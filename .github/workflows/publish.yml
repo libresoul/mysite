@@ -35,7 +35,7 @@ jobs:
           jorge build
       
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v3
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -48,3 +48,5 @@ jobs:
           branch: ${{ github.ref_name }}
           # Optional: Change the working directory
           # workingDirectory: my-site
+          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+          wranglerVersion: '3'
