@@ -1,4 +1,5 @@
 name: "Blogs By Damindu"
 author: "Damindu Dhananjitha"
+lang: "en"
 url: "https://damindu.me"
 post_format: "blog/:title.md"
