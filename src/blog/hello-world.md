@@ -4,7 +4,7 @@ date: 2024-09-12 14:48:56
 layout: post
 lang: en
 tags: [intro]
-cover-img: ["../images/library_hello-world.webp", "Photo by [Valentino Mazzariello](https://unsplash.com/@vm32) on [Unsplash](https://unsplash.com/photos/brown-table-between-two-ladders-Ndm1hhIcwHc)"]
+cover-img: ["../images/library_hello-world.webp", "Photo by [Valentino Mazzariello](https://unsplash.com/@vm32) on [Unsplash](https://unsplash.com/photos/brown-table-between-two-ladders-Ndm1hhIcwHc)", "Indoor of a library where a window is located between two book shelves"]
 ---
 
 ## Shouldn't a library be a quiet place?
