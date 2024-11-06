@@ -6,7 +6,7 @@ export async function onRequest(context) {
     
     return new Response(
 `IP Address: ${clientIP}
-Country: ${JSON.stringify(cdetails.name.common)}`
+Country: ${cdetails.name.common}`
     );
 }
 
